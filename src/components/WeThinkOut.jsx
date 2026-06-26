@@ -36,7 +36,7 @@ const WeThinkOut = () => {
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
-      // Existing text animation
+     
       gsap.fromTo(
         ".word",
         {
@@ -59,7 +59,7 @@ const WeThinkOut = () => {
         }
       );
 
-      // Button bounce animation
+      
       gsap.to(buttonRef.current, {
         y: 10,
         duration: 0.8,
@@ -89,7 +89,7 @@ const WeThinkOut = () => {
         <div className="grid lg:grid-cols-[220px_1fr] gap-10" ref={sectionRef}>
           <div>
             <span className="text-sm font-medium opacity-80 uppercase text-orange-400">
-              // What we do
+             [ What we do ]
             </span>
           </div>
 

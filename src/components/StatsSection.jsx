@@ -39,7 +39,7 @@ const StatsSection = () => {
 
     return () => ctx.revert();
   }, []);
-
+/*
   const splitWords = (text) => {
     return text.split(" ").map((word, index) => (
       <span
@@ -50,7 +50,7 @@ const StatsSection = () => {
       </span>
     ));
   };
-
+*/
 
   const text = "Crafting a great product is our passion so we dare what others don't";
 
@@ -60,7 +60,7 @@ const StatsSection = () => {
         {/* Heading */}
         <div className="grid lg:grid-cols-[180px_1fr] gap-8 lg:gap-16 mb-24 relative">
           <div>
-            <span className="text-xs uppercase text-orange-400">// Impression</span>
+            <span className="text-xs uppercase text-orange-400"> [ Impression ]</span>
           </div>
 
            <h2

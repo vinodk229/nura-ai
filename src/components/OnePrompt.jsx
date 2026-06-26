@@ -109,7 +109,7 @@ const OnePrompt = () => {
           {/* RIGHT COLUMN */}
           <div>
             <span className="text-xs uppercase tracking-wider text-orange-400">
-              // Selected work
+               [ Selected work ]
             </span>
 
             <div className="portfolio-title mt-4 mb-12">

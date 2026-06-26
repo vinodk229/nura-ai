@@ -10,7 +10,7 @@ import logo5 from "./brand-s-16.webp";
 import logo6 from "./brand-s-17.webp";
 import logo7 from "./brand-s-18.webp";
 import logo8 from "./brand-s-19.webp";
-import logo9 from "./brand-s-20.webp";
+
 
 export {
   service1,

@@ -56,7 +56,7 @@ const LatestNews = () => {
             start: "top 80%",
             end: "top 20%",
             scrub: 1,
-            markers: false, // remove after testing
+            markers: false, 
           },
         }
       );
@@ -74,7 +74,7 @@ const LatestNews = () => {
         <div className="grid lg:grid-cols-[220px_1fr] gap-10">
           <div>
             <span className="text-xs uppercase text-orange-400">
-              // Latest News
+              [ Latest News ]
             </span>
           </div>
 
