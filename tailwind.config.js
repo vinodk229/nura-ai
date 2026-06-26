@@ -9,5 +9,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  base: process.env.REACT_BASE_PATH
 }
 
