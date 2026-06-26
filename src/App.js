@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import HeroSection from './components/Hero/HeroBanner'
+import SmoothScroll from './scroll/SmoothScroll'
+import DesignStudio from './components/DesignStudio'
+import BrandScroller from './components/BrandScroller'
+import WeThinkOut from './components/WeThinkOut'
+import OnePrompt from './components/OnePrompt'
+import StatsSection from './components/StatsSection'
+import LatestNews from './components/LatestNews'
+import Footer from './components/Footer/Footer'
+const App = () => {
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="bg-white dark:bg-black min-h-screen transition-all duration-300">
+      <Navbar />
+      <SmoothScroll />
+      <HeroSection />
+      <DesignStudio/>
+      <BrandScroller />
+      <WeThinkOut />
+      <OnePrompt />
+      <StatsSection/>
+      <LatestNews/>
+      <Footer/>
+     
     </div>
-  );
+    
+  )
 }
 
-export default App;
+export default App
